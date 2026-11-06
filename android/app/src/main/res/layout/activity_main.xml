@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상태: 대기 중"
+
+        android:layout_marginTop="200dp"
+
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:text="0.00 m"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="연결" />
+
+    <Button
+        android:id="@+id/disconnectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="해제" />
+
+
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자동 추적 ON / 자동 추적 OFF"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/RESUME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESUME"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/warrningMessage"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_marginTop="30dp"
+        android:padding="30dp"
+        android:text="카트가 멈췄습니다
+        버튼을 눌러 해제하세요"
+        android:textSize="32sp" />
+
+</LinearLayout>

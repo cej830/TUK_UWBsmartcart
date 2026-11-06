@@ -1,0 +1,19 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Android local settings and generated output
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/build/
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
